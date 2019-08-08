@@ -17,3 +17,8 @@ p {
     font-family: Arial;
     font-size: 150%;
 }
+
+p.test2 {
+    color: black;
+    font-size: 200%;
+}
