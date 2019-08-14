@@ -28,16 +28,22 @@
 
     <!-- ###### Table HTML ####### -->
     <p><br>This is Table part</p>
-    <table>
+    <table id="t01">
+        <caption> Co-Founder Data </caption>  <!-- Caption mean Table title-->
         <tr> <!-- tr = Table Row-->
             <th> First Name </th> <!-- th = Table Header (default Bold)-->
             <th> Last Name</th>
-            <th> Age </th>
+            <th colspan="2"> Age </th> <!-- column span = Merge cell [Column]-->
         </tr>
         <tr>
             <td> tawee </td> <!-- td = Table Data/Cell-->
             <td> Chuentrakulchai </td>
-            <td> 24 </td>
+            <td rowspan="2"> 24 </td>  <!-- row span = Merge Cell [Row]-->
+            <td rowspan="2"> 2538 </td> 
+        </tr>
+        <tr>
+            <td> phornsuda </td> <!-- td = Table Data/Cell-->
+            <td> butkumlue </td>
         </tr>
     </table>
 </body>
