@@ -6,12 +6,7 @@ h1 {
     font-family: Helvetica;
     font-size: 300%;
 }
-p {
-    color:white;
-    border: 1px solid green;
-    padding: 20px;
-    margin: 40px;
-}
+
 #test1 {
     color: rgb(233, 116, 38);
     font-family: Arial;
@@ -19,12 +14,12 @@ p {
 }
 
 p.test2 {
-    color: whitesmoke;
+    color: blue;
     font-size: 200%;
 }
 table#t01 ,th, td{
-    color: aliceblue;
-    border: 1px solid greenyellow; /* Add Border */
+    color: blueviolet;
+    border: 1px solid black; /* Add Border */
     border-collapse: collapse; /* Collapse Border */
 }
 th, td{
