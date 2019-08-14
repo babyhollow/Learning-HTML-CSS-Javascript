@@ -7,13 +7,16 @@ h1 {
     font-size: 300%;
 }
 
+/* id Selector use -> "#" */
 #test1 {
     color: rgb(233, 116, 38);
     font-family: Arial;
     font-size: 150%;
 }
 
-p.test2 {
+/* class Selector use -> "." */
+/* class can select only para. ex. "p.test2" */
+.test2 {
     color: blue;
     font-size: 200%;
 }
